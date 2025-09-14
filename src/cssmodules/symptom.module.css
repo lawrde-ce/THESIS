@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  background-color: hsl(197, 71%, 90%);
+  justify-content: center;
+  align-items: center;
+}
+
+.symptomSection {
+  text-align: center;
+  padding: 10px;
+}
+
+.title {
+  font-size: 3rem;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.5rem;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.symptomList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.iconContainer {
+  height: 70px;
+  width: 100px;
+  border: 3px solid black;
+  margin-top: 15px;
+}
+
+.symptomItem {
+  align-items: center;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 20px 10px 5px hsl(197, 71%, 80%);
+  display: flex;
+  flex-direction: column;
+}
+
+.symptomItem:hover {
+  background-color: hsl(0, 0%, 90%);
+  cursor: pointer;
+}
+
+.navigationButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.backButton {
+  width: 250px;
+  margin-left: 75px;
+}
+
+.nextButton {
+  width: 250px;
+  margin-right: 75px;
+}
