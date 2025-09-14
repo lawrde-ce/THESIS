@@ -3,9 +3,9 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Symptoms from "./pages/Symptoms.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Dashboard />,
